@@ -1,0 +1,14 @@
+server:
+  port: 8182
+  servlet:
+    context-path: /online
+
+spring:
+  application:
+    name: onlinetest
+
+
+  profiles:
+    include:
+      - db
+      - logging
